@@ -1,0 +1,30 @@
+🧱 Step 1: Create a Virtual Environment (Recommended)
+Open your VS Code terminal and run:
+
+~bash
+
+#python -m venv venv
+Then activate it:
+~Windows:
+#venv\Scripts\activate
+Linux/macOS:
+
+
+📦 Step 2: Install Required Libraries
+In your activated terminal, run this full suite of commands:
+
+
+#pip install opencv-python mediapipe numpy PyOpenGL PyOpenGL_accelerate
+
+
+✅ Explanation:
+
+opencv-python – camera access + image processing
+
+mediapipe – real-time face/hand detection
+
+numpy – math operations & coordinate transformations
+
+PyOpenGL – 3D rendering in Python
+
+PyOpenGL_accelerate – faster rendering with C-extensions (optional but helpful)
